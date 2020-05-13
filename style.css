@@ -1,0 +1,134 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.navbar {
+	background-image: linear-gradient(to right, rgba(16, 38, 78, 0.7), rgba(0, 156, 214));
+	height: 4vh;
+	width: 100%;
+}
+.navbar a {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	margin: 1vh 0;
+	text-decoration: none;
+	color: white;
+	opacity: 0.7;
+}
+.navbar-menu {
+	display: flex;
+	justify-content: flex-end;
+	position: column;
+}
+.navbar-menu li {
+	list-style: none;
+	margin: 0 10px;
+	font-size: 10px;
+}
+.logo-container {
+	width: 100%;
+	height: 80px;
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: space-between;
+}
+.logo-img {
+	width: 210px;
+	height: 105px;
+	margin-top: -10px;
+}
+.navbar-options {
+	display: flex;
+	justify-content: flex-end;
+}
+.navbar-options li {
+	list-style: none;
+	margin: 30px 8px;
+}
+.navbar-options a {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.6;
+	font-weight: bold;
+	font-size: 14px;
+}
+.products h1 {
+	text-align: center;
+	margin: 40px 0;
+	color: #009CD6;
+
+}
+.products-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.products-detail {
+	/*border: 2px solid black;*/
+	width: 700px;
+	height: 600px;
+	margin: 10px;
+	line-height: 25px;
+}
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.products-detail h2 {
+	text-align: center;
+	color: #68BC87;;
+	margin: 20px 10px;
+}
+.products-detail p {
+	color: #000;
+	opacity: 0.8;
+	font-weight: regular;
+	text-align: center;
+	font-size: 15px;
+	width: 600px;
+	margin: auto;
+}
+.options {
+	margin: 50px 50px;
+	text-align: right;
+}
+.options label {
+	font-size: 30px;
+	font-weight: bold;
+	color: #68BC87;
+}
+.option-label {
+	margin: 10px 5px;
+}
+.confirm-button {
+	float: right;
+	margin: 0 50px;
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	border: 0;
+	background-color: #68BC87;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.confirm-button:hover {
+	background-color: #10264E;
+	cursor: pointer;
+}
+.confirm-option {
+	color: #000;
+	opacity: 0.8;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+
+
+
+
+
