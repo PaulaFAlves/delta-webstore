@@ -7,7 +7,7 @@
 			for (let i = 0; i < radios.length; i++) {
 				if (radios[i].checked) {
 					let option = radios[i].id 
-					confirmOption.innerHTML = 'Você escolhei o PLANO ' + option.toUpperCase() + '.<br>. Clique em confirmar para escolher as opções de pagamento.';
+					confirmOption.innerHTML = 'Você escolheu o PLANO ' + option.toUpperCase() + '.<br>Clique em confirmar para escolher as opções de pagamento.';
 				}
 			}
 			
