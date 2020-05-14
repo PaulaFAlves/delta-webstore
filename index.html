@@ -6,7 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Delta Global Assistance - Loja Virtual</title>
 	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
 </head>
 <body>
 	<header class="header">
@@ -48,21 +50,19 @@
 				</div>
 				<p>A Delta Assistance é referência em assistência 24h no mercado de frotas. Dando total atenção a esse segmento de mercado a empresa se diferencia das demais companhias de assistência por oferecer um atendimento mais próximo especializado e modelos de negócios que se encaixam na necessidade de cada cliente. São mais de 60mil veículos das maiores transportadoras e locadoras do Brasil sendo atendidos diariamente por nossos analistas.</p>
 				<form action="" class="options">
-					<div class="option01">
-						<label for="option01" class="option-label">Plano mensal</label>
-						<input type="radio" id="mensal" name="radio" class="checkbox">
+					<div class="option01" id="mensal">
+						<button class="mensal" id="mensal" class="option-label" draggable="true">Plano mensal</button>
 					</div>
 					<div class="option02">
-						<label for="option02" class="option-label">Plano trimestral</label>
-						<input type="radio" id="trimestral" name="radio" class="checkbox">
+						<button class="trimestral" id="trimestral" class="option-label" draggable="true">Plano trimestral</button>
 					</div>
 					<div class="option03">
-						<label for="option03" class="option-label">Plano Anual</label>
-						<input type="radio" id="anual" name="radio" class="checkbox">
+						<button class="anual" id="anual" class="option-label" draggable="true">Plano anual</button>
 					</div>
 				</form>
+				<!-- <button class="shopping-cart" id="shopping-cart"><img src="./images/shopping-cart.svg" alt=""></button> -->
 				<div class="confirm-option"></div>
-				<button class="confirm-button">Confirmar</button>
+				<button class="confirm-button" id="confirm-button"><img id="shopping-img" src="./images/shopping-cart.svg" alt=""></button>
 			</div>
 		</div>
 	
