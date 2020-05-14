@@ -11,16 +11,19 @@ shoppingCart.addEventListener('mouseleave', function(e) {
 	e.preventDefault();
 	if (choice === 1) {
 		let option = mensal.id
-		confirmOption.innerHTML = 'Você escolheu o PLANO ' + option.toUpperCase() + '.<br>Clique no carrinho para escolher as opções de pagamento.';
+		confirmOption.innerHTML = 'Você escolheu o PLANO ' + option.toUpperCase() + '.<br>Clique em CONFIRMAR para escolher as opções de pagamento.';
 		mensal.style.backgroundColor = '';
+		shoppingCart.innerHTML = 'Confirmar'
 	} else if (choice === 2) {
 		let option = trimestral.id
-		confirmOption.innerHTML = 'Você escolheu o PLANO ' + option.toUpperCase() + '.<br>Clique no carrinho para escolher as opções de pagamento.';
+		confirmOption.innerHTML = 'Você escolheu o PLANO ' + option.toUpperCase() + '.<br>Clique em CONFIRMAR para escolher as opções de pagamento.';
 		trimestral.style.backgroundColor = '';
+		shoppingCart.innerHTML = 'Confirmar'
 	} else if (choice === 3) {
 		let option = anual.id
-		confirmOption.innerHTML = 'Você escolheu o PLANO ' + option.toUpperCase() + '.<br>Clique no carrinhopara escolher as opções de pagamento.';
+		confirmOption.innerHTML = 'Você escolheu o PLANO ' + option.toUpperCase() + '.<br>Clique em CONFIRMAR para escolher as opções de pagamento.';
 		anual.style.backgroundColor = '';
+		shoppingCart.innerHTML = 'Confirmar'
 	} else {
 		confirmOption.innerHTML = 'Escolha um plano.' 
 	}
